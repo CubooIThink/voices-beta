@@ -24,9 +24,9 @@ $(function() {
   function addParticipantsMessage(data) {
     var message = "";
     if (data.numUsers === 1) {
-      message += "1 people on rizzcord";
+      message += "1 person on rizzcord";
     } else {
-      message += data.numUsers + " people online";
+      message += data.numUsers + " people on rizzcord";
     }
     log(message);
   }
