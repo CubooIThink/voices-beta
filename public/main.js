@@ -24,7 +24,7 @@ $(function() {
   function addParticipantsMessage(data) {
     var message = "";
     if (data.numUsers === 1) {
-      message += "1 person online";
+      message += "1 people on rizzcord";
     } else {
       message += data.numUsers + " people online";
     }
@@ -242,7 +242,7 @@ $(function() {
 
   // Whenever the server emits 'user joined', log it in the chat body
   socket.on("user joined", function(data) {
-    log(data.username + " opened rizz");
+    log(data.username + " opened RizzCord");
     addParticipantsMessage(data);
   });
 
