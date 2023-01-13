@@ -1,29 +1,37 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Chatroom</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="shortcut icon" href="https://cdn.glitch.com/e6d1cd65-3819-4e3d-8786-8536d04dc950%2Ffavicon.ico?1495138588053" type="image/x-icon">
-</head>
-<body>
-  <ul class="pages">
-    <li class="chat page">
-      <div class="chatArea">
-        <ul class="messages"></ul>
-      </div>
-      <input class="inputMessage" placeholder="Type Here..."/>
-    </li>
-    <li class="login page">
-      <div class="form">
-        <h3 class="title">Type Username</h3>
-        <input class="usernameInput" type="text" maxlength="31" />
-      </div>
-    </li>
-  </ul>
+  <head>
+    <meta charset="UTF-8" />
+    <title>RizzCord</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="shortcut icon"
+      href="https://discordapp.com/assets/5f80f04e6ee97feebdd00feff92ced82.svg"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <ul class="pages">
+      <li class="chat page">
+        <div class="chatArea">
+          <ul class="messages"></ul>
+        </div>
+        <input class="inputMessage" placeholder="Type Here..." />
+      </li>
+      <li class="login page">
+        <div class="form">
+          <h3 class="title">
+            Hey there! This is RizzCord. Theres only a bit of rules, 1. No
+            spamming, 2. You have to put your real name in your username, so you
+            can be RizzKidMicheal. You can type your username now
+          </h3>
+          <input class="usernameInput" type="text" maxlength="31" />
+        </div>
+      </li>
+    </ul>
 
-  <script src="https://code.jquery.com/jquery-2.2.2.min.js"></script>
-  <script src="/socket.io/socket.io.js"></script>
-  <script src="/main.js"></script>
-</body>
+    <script src="https://code.jquery.com/jquery-2.2.2.min.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/main.js"></script>
+  </body>
 </html>
